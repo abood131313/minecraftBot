@@ -44,10 +44,10 @@ ipc.connectTo("parent", socketPath, function () {
 });
 
 const bot = mineflayer.createBot({
-  host: server,
-  port: port,
-  username: username,
-  password: password,
+  host: stars_mc.aternos.me,
+  port: 32499,
+  username: staff,
+  password: staffs,
 });
 
 let mcData;
